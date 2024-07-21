@@ -1,13 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  @apply bg-slate-300 font-serif
+}
+.navbar {
+  @apply fixed m-4 mr-2 mt-6 h-max pb-16 top-0 left-0 flex flex-col bg-slate-100 text-3xl text-right shadow-xl relative transition-all duration-1000
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navitem {
+  @apply p-4 text-lg hover:bg-slate-200 hover:cursor-pointer text-right
+}
+
+.main {
+  @apply grow m-4 my-6 rounded-lg relative
+}
+
+.bgElement {
+  @apply w-32 h-32 rounded-full absolute blur origin-top-right opacity-50
+}
+
+.profile-picture {
+  @apply flex flex-row h-64 mb-1 relative border-b-2 bg-profile bg-bottom bg-cover transition-all duration-1000
+}
+
+.App {
+  @apply min-h-screen w-screen relative overflow-x-hidden
 }
