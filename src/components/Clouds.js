@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Cloud = ({ direction, topClass, rightClass }) => {
+const Cloud = ({ topClass, animate }) => {
   return (
-    <div className={`absolute flex-none ${topClass} ${rightClass} ${direction ? "animate-moveLeftToRight" : "animate-moveRightToLeft" }`}>
+    <div className={`absolute flex-none ${topClass} ${animate}`}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 64 64"

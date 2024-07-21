@@ -16,14 +16,16 @@ export default function Navbar() {
                 }}>
                 {collapsed ? <BiExpandHorizontal /> : <BiCollapseHorizontal />}
             </button>
-            <div className={`profile-picture ${collapsed ? "rounded-t-full" : "rounded-t-lg"}`}>
-                {/* <div className={`${collapsed ? "hidden" : ""} font-sans top-1/2 left-1/2 text-white font-bold -translate-x-1/2 translate-y-2/3 absolute text-center`}>
-                    <h1 className="text-xl">
-                        Gautham YS
-                    </h1>
-                    <p className="text-xs">gsaty@uic.edu</p>
-                </div> */}
-            </div>
+            <a href="#home">
+                <div className={`profile-picture ${collapsed ? "rounded-t-full" : "rounded-t-lg"}`}>
+                    {/* <div className={`${collapsed ? "hidden" : ""} font-sans top-1/2 left-1/2 text-white font-bold -translate-x-1/2 translate-y-2/3 absolute text-center`}>
+                        <h1 className="text-xl">
+                            Gautham YS
+                        </h1>
+                        <p className="text-xs">gsaty@uic.edu</p>
+                    </div> */}
+                </div>
+            </a>
             <ul>
                 <NavItem target={"#home"} title={"Who I am"} collapsed={collapsed} Icon={MdOutlinePermIdentity} />
                 <NavItem title={"What I'm doing"} collapsed={collapsed} Icon={FaTools}/>
