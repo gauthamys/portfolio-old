@@ -4,11 +4,16 @@ import React from "react";
 function Home(){
     return (
         <div>
-            <Title text={"Gautham YS"} />
-            <p className="text-s text-center mt-2">
-                Master's student at the University of Illinois, Chicago (MSCS)
+            <Title text={"Gautham Yelliboina Satyanarayana"} />
+            <p className="text-lg text-center mt-2">
+            ˙✧˖°🎓 Master's student at the <span className="text-pink-500 font-extrabold">University of Illinois, Chicago</span>  (MSCS) 👨‍🎓 ༘⋆｡ ˚
             </p>
-            <p className="text-s text-center mt-1">Chicago, IL | gsaty@uic.edu | linkedin.com/in/gauthamys | github.com/gauthamys</p>
+            <div className="text-s text-center mt-1">
+                📍 Chicago, IL | 
+                📩 <a className="profile-link" href="mailto:gsaty@uic.edu">gsaty@uic.edu</a> |  
+                💼 <a className="profile-link animate-bounce" target="_blank" href="https:www.linkedin.com/in/gauthamys">LinkedIn</a> | 
+                👩🏻‍💻 <a className="profile-link" target="_blank" href="https://www.github.com/gauthamys">Github</a>
+            </div>
         </div>
     )
 }

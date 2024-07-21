@@ -10,7 +10,7 @@ body {
 }
 
 .navitem {
-  @apply p-4 text-lg hover:bg-slate-200 hover:cursor-pointer text-right
+  @apply p-4 text-lg hover:bg-slate-200 hover:cursor-pointer 
 }
 
 .main {
@@ -27,4 +27,8 @@ body {
 
 .App {
   @apply min-h-screen w-screen relative overflow-x-hidden
+}
+
+.profile-link {
+  @apply text-cyan-800 underline underline-offset-4 hover:underline-offset-8 p-2 transition-all duration-300
 }

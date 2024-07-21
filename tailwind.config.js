@@ -25,8 +25,8 @@ module.exports = {
       },
       animation: {
         wiggle: 'wiggle 2s ease-in-out infinite',
-        moveLeftToRight:  'moveLeftToRight 90s linear infinite',
-        moveRightToLeft: 'moveRightToLeft 90s linear infinite'
+        moveLeftToRight:  'moveLeftToRight 45s linear infinite',
+        moveRightToLeft: 'moveRightToLeft 45s linear infinite'
       }
     },
   },

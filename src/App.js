@@ -7,8 +7,11 @@ import React from "react";
 function App() {
   return (
     <div className='App flex flex-row'>
-      <Cloud direction={true}/>
-      <Cloud direction={false}/>
+      <Cloud direction={true} topClass={"top-0"} rightClass={"right-24"}/>
+      <Cloud direction={false} topClass={"top-6"} rightClass={"right-48"}/>
+      <Cloud direction={false} topClass={"top-8"} rightClass={"right-48"}/>
+      <Cloud direction={false} topClass={"top-24"} rightClass={"right-48"}/>
+      <Cloud direction={true} topClass={"top-32"} rightClass={"right-64"}/>
       <Navbar />
       <Main Component={Home}/>
     </div>

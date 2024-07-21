@@ -9,7 +9,7 @@ import { MdOutlinePermIdentity } from "react-icons/md";
 export default function Navbar() {
     const [collapsed, setCollapsed] = useState(true);
     return (
-        <div className={`navbar ${collapsed ? "w-28 rounded-t-full rounded-b-full" : "w-64 rounded-b-lg rounded-t-lg"}`}> 
+        <div className={`navbar ${collapsed ? "w-24 rounded-t-full rounded-b-full" : "w-64 rounded-b-lg rounded-t-lg"}`}> 
             <button className="w-8 h-8 p-2.5 rounded-full shadow-2xl bg-slate-400 absolute top-1/2 -right-2.5 text-xs text-center font-bold border-2px border-black"
                 onClick={() => {
                     setCollapsed(!collapsed)
