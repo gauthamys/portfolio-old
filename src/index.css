@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 body {
   @apply bg-slate-300 font-serif
 }
@@ -31,4 +33,8 @@ body {
 
 .profile-link {
   @apply text-cyan-800 underline underline-offset-4 hover:underline-offset-8 p-2 transition-all duration-300
+}
+
+.polaroid-text {
+  font-family: "Dancing Script", cursive;
 }

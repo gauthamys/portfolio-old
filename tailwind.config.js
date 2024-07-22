@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        cursive: ['Pacifico', 'cursive'],
+      },
       backgroundImage: {
         'profile': "url('\profile.png')",
       },
