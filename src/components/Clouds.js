@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cloud = ({ topClass, animate }) => {
   return (
-    <div className={`absolute flex-none ${topClass} ${animate}`}>
+    <div className={`absolute -z-40 ${topClass} ${animate}`}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 64 64"

@@ -8,7 +8,7 @@ body {
   @apply bg-slate-300 font-serif
 }
 .navbar {
-  @apply fixed m-4 mr-2 mt-6 h-max pb-16 top-0 left-0 flex flex-col bg-slate-100 text-3xl text-right shadow-xl relative transition-all duration-1000
+  @apply relative m-4 mr-2 mt-6 h-screen pb-16 top-0 left-0 flex flex-col bg-slate-100 text-3xl text-right shadow-xl transition-all duration-1000
 }
 
 .navitem {
@@ -16,7 +16,7 @@ body {
 }
 
 .main {
-  @apply grow m-4 my-6 rounded-lg relative
+  @apply relative grow ml-4 ml-2 mt-6 relative
 }
 
 .bgElement {
@@ -28,7 +28,7 @@ body {
 }
 
 .App {
-  @apply min-h-screen w-screen relative overflow-x-hidden
+  @apply max-w-full overflow-x-hidden
 }
 
 .profile-link {

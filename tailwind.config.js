@@ -11,8 +11,14 @@ module.exports = {
       },
       backgroundImage: {
         'profile': "url('\profile.png')",
+        'crushedpaper': "url('\crushedpaper.jpg')",
       },
       keyframes: {
+        sunPath: {
+          '0%': { transform: 'rotate(0deg)' },
+          '50%': { transform: 'rotate(180deg)'},
+          '100%': {transform: 'rotate(360deg)'},
+        },
         wiggle: {
           '0%, 100%': { transform: 'rotate(-3deg)' },
           '50%': { transform: 'rotate(3deg)' },
@@ -24,12 +30,14 @@ module.exports = {
         moveRightToLeft: {
           '0%, 100%': {left: '100%'},
           '50%': {left: '0%'}
-        }
+        },
       },
       animation: {
+        sunPath: 'sunPath 3s linear infinite',
         wiggle: 'wiggle 2s ease-in-out infinite',
         moveLeftToRight:  'moveLeftToRight 45s linear infinite',
         moveRightToLeft: 'moveRightToLeft 45s linear infinite',
+        sunPath: 'sunPath 5s linear infinite',
         cloud_1: 'moveLeftToRight 45s linear infinite',
         cloud_2: 'moveRightToLeft 50s linear infinite',
         cloud_3: 'moveLeftToRight 55s linear infinite',

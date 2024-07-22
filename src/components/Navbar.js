@@ -28,7 +28,7 @@ export default function Navbar() {
             </a>
             <ul>
                 <NavItem target={"#home"} title={"Who I am"} collapsed={collapsed} Icon={MdOutlinePermIdentity} />
-                <NavItem title={"What I'm doing"} collapsed={collapsed} Icon={FaTools}/>
+                <NavItem target={"#polaroidstory"} title={"What I'm doing"} collapsed={collapsed} Icon={FaTools}/>
                 <NavItem title={"What I've done"} collapsed={collapsed} Icon={FaRegBuilding}/>
                 <NavItem title={"What I want to do"} collapsed={collapsed} Icon={GiBullseye}/>
                 <NavItem title={"Connect with me"} collapsed={collapsed} Icon={LuHeartHandshake}/>
