@@ -9,9 +9,9 @@ function Main() {
         <div className="main">
             <Cloud topClass={"top-[-1.5rem]"} animate={"animate-cloud_1"}/>
             <Cloud topClass={"top-[0rem]"} animate={"animate-cloud_2"}/>
-            <Cloud topClass={"top-[2.5rem]"} animate={"animate-cloud_3"}/>
-            <Cloud topClass={"top-[4.5rem]"} animate={"animate-cloud_4"}/>
-            <Cloud topClass={"top-[6.5rem]"} animate={"animate-cloud_5"}/>
+            <Cloud topClass={"top-[1rem]"} animate={"animate-cloud_3"}/>
+            <Cloud topClass={"top-[2.5rem]"} animate={"animate-cloud_4"}/>
+            <Cloud topClass={"top-[4rem]"} animate={"animate-cloud_5"}/>
             <Sun />
             <div className="m-6">
                 <div id="home" name="home">

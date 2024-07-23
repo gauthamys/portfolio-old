@@ -5,7 +5,7 @@ function Home(){
     return (
         <div>
             <Title text={"Gautham Yelliboina Satyanarayana"} />
-            <p className="text-lg text-center mt-2">
+            <p className="text-md text-center mt-0">
             ˙✧˖°🎓 Master's student at the <span className="text-pink-500 font-extrabold">University of Illinois, Chicago</span>  (MSCS) 👨‍🎓 ༘⋆｡ ˚
             </p>
             <div className="text-sm text-center mt-1">
