@@ -2,24 +2,38 @@ import Polaroid from "./Polaroid";
 
 function PolaroidStory() {
     return (
-        <div className="mt-6 mx-20 flex flex-col justify-between">
-            <div className="grid grid-cols-6 gap-6 p-10 mx-[10%]">
-                <p className="col-span-3">lorem ipsum lorem </p>
-                <div className="col-start-5 col-span-2">
-                    <Polaroid imgSrc={"bg-profile"} description={"text 1"}rotate={false} />
+        <div className="mt-4 mr-12 ml-2 mb-10 z-50 overflow-y-auto h-[29rem] snap-y snap-mandatory">
+            <div className="grid grid-cols-5 h-4/5 snap-center p-10 mx-[8%]">
+                <div className="col-span-1">
+                    <Polaroid imgSrc={"/profile.png"} description={"University of Illinois Chicago"} rotate={false} month={"Dec"} date={19} />
+                </div>
+                <div className="col-span-4 border-4 relative -z-10">
+                    <p className="absolute left-24 top-8">lorem ipsum</p>
                 </div>
             </div>
-            <div className="grid grid-cols-3 p-10 mx-[10%]">
-                <div className="col-span-1">
-                    <Polaroid imgSrc={"bg-profile"} description={"text 1"} rotate={true} />
+            <div className="grid grid-cols-5 h-4/5 snap-center p-10 mx-[8%]">
+                <div className="col-span-4 border-4 relative -z-10">
+                    <p className="absolute left-24 top-8">lorem ipsum</p>
                 </div>
-                <p className="col-span-2 text-center border-4">lorem ipsum</p>
+                <div className="col-span-1">
+                    <Polaroid imgSrc={"/day1work.jpg"} description={"Day 1 of my first job"} rotate={true} month={"Feb '24"} date={"23"} />
+                </div>
             </div>
-            <div className="grid grid-cols-3 p-10 mx-[10%]">
+            <div className="grid grid-cols-5 h-4/5 snap-center p-10 mx-[8%]">
                 <div className="col-span-1">
-                    <Polaroid imgSrc={"bg-profile"} description={"text 1"} rotate={false} />
+                    <Polaroid imgSrc={"/graduation.jpg"} description={"PES University"} rotate={false} month={"Oct '23"} date={7} />
                 </div>
-                <p className="col-span-2 text-center">lorem ipsum</p>
+                <div className="col-span-4 border-4 relative -z-10">
+                    <p className="absolute left-24 top-8">lorem ipsum</p>
+                </div>
+            </div>
+            <div className="grid grid-cols-5 h-4/5 snap-center p-10 mx-[8%]">
+                <div className="col-span-4 border-4 relative -z-10">
+                    <p className="absolute left-24 top-8">lorem ipsum</p>
+                </div>
+                <div className="col-span-1">
+                    <Polaroid imgSrc={"/opslyft.jpg"} description={"My first internship (Also my 21st birthday)"} rotate={true} month={"Apr '22"} date={"18"} />
+                </div>
             </div>
         </div>
     )

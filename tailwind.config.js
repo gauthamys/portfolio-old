@@ -10,8 +10,7 @@ module.exports = {
         cursive: ['Pacifico', 'cursive'],
       },
       backgroundImage: {
-        'profile': "url('\profile.png')",
-        'crushedpaper': "url('\crushedpaper.jpg')",
+        'profile': 'url("\profile.jpeg")',
       },
       keyframes: {
         sunPath: {
