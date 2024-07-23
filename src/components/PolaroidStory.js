@@ -13,7 +13,7 @@ function PolaroidStory() {
                 <div className="col-span-1">
                     <Polaroid imgSrc={"bg-profile"} description={"text 1"} rotate={true} />
                 </div>
-                <p className="col-span-2 text-center">lorem ipsum</p>
+                <p className="col-span-2 text-center border-4">lorem ipsum</p>
             </div>
             <div className="grid grid-cols-3 p-10 mx-[10%]">
                 <div className="col-span-1">
