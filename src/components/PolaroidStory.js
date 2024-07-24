@@ -2,7 +2,7 @@ import Polaroid from "./Polaroid";
 
 function PolaroidStory() {
     return (
-        <div className="mt-4 pt-2 mr-12 ml-2 mb-10 z-50 overflow-y-auto h-[29rem] snap-y snap-mandatory">
+        <div className="mt-4 pt-2 mr-12 ml-0 mb-10 z-50 overflow-y-auto h-[29rem] snap-y snap-mandatory">
             <div className="grid grid-cols-5 h-4/5 snap-center p-10 pb-0 pt-12 mb-0 mx-[1%]">
                 <div className="col-span-1">
                     <Polaroid imgSrc={"/profile.png"} description={"University of Illinois Chicago"} rotate={false} month={"Aug '24"} date={"15"} />

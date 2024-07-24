@@ -30,7 +30,7 @@ body {
   @apply bg-slate-300 font-serif
 }
 .navbar {
-  @apply relative m-4 ml-8 mr-0 mt-6 h-[90%] pb-16 top-0 left-0 flex flex-col bg-slate-100 text-3xl text-right shadow-xl transition-all duration-1000
+  @apply relative m-4 ml-8 mr-0 mt-6 w-56 rounded-b-lg rounded-t-lg h-[90%] pb-16 top-0 left-0 flex flex-col bg-slate-100 text-3xl text-right shadow-xl transition-all duration-1000
 }
 
 .navitem {
@@ -46,7 +46,7 @@ body {
 }
 
 .profile-picture {
-  @apply flex flex-row h-64 mb-1 relative border-b-2 bg-profile bg-top bg-cover transition-all duration-1000
+  @apply flex flex-row h-64 mb-1 relative border-b-2 bg-profile bg-center bg-cover transition-all duration-1000
 }
 
 .App {
