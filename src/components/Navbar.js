@@ -33,8 +33,8 @@ export default function Navbar() {
 function NavItem({ title, Icon, target }) {
     return (
         <a href={target} className="navitem flex flex-row">
-            <Icon className="mt-2 ml-5"/> 
-            <p>{title}</p>       
+            <Icon className="ml-5 mr-3"/> 
+            <p className="text-sm font-sans">{title}</p>       
         </a>
     )
 }

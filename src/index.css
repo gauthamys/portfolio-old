@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+BE+VLG:wght@100..400&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -29,16 +31,21 @@
 body {
   @apply bg-slate-300 font-serif
 }
+
+.polaroid-story-container {
+  @apply grid grid-cols-5 h-4/5 snap-center origin-top p-10 pb-0 pt-12 mx-[1%]
+}
+
 .navbar {
   @apply relative m-4 ml-8 mr-0 mt-6 w-56 rounded-b-lg rounded-t-lg h-[90%] pb-16 top-0 left-0 flex flex-col bg-slate-100 text-3xl text-right shadow-xl transition-all duration-1000
 }
 
 .navitem {
-  @apply p-4 text-lg hover:bg-slate-200 hover:cursor-pointer 
+  @apply p-4 text-lg hover:bg-slate-200 hover:cursor-pointer hover:text-blue-700 hover:font-bold
 }
 
 .main {
-  @apply relative grow ml-4 ml-2 mt-2 relative
+  @apply relative grow ml-4 mt-2 relative
 }
 
 .bgElement {
@@ -60,4 +67,28 @@ body {
 .polaroid-text {
   font-family: "Playwrite BE VLG", cursive;
   font-size: small;
+}
+
+.notepad {
+  font-family: "Playwrite AT", cursive;
+  font-style: italic;
+  background: linear-gradient(rgb(235, 209, 162) 24px, #e3e3e3 24px);
+  background-size: 100% 25px;
+  border: 1px solid #d1d1d1;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 25px;
+}
+
+.terminal {
+  font-family: "Ubuntu Sans Mono", monospace;
+  @apply bg-pink-900 text-white
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #67c23a;
+  background-image: linear-gradient(to bottom, #98e39e, #67c23a);
+  clip-path: polygon(0% 50%, 10% 60%, 20% 40%, 30% 60%, 40% 40%, 50% 60%, 60% 40%, 70% 60%, 80% 40%, 90% 60%, 100% 50%, 100% 100%, 0% 100%);
 }
